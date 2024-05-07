@@ -1,0 +1,15 @@
+input AuthorsMutationNS_input {
+  id: Int
+  firstname: String
+  lastname: String
+}
+
+type AuthorsMutationNS_mutationResult {
+  changed: Author
+}
+
+type AuthorsMutationNS {
+  create(input: AuthorsMutationNS_input): AuthorsMutationNS_mutationResult!
+  update(input: AuthorsMutationNS_input): AuthorsMutationNS_mutationResult!
+  delete(input: AuthorsMutationNS_input): AuthorsMutationNS_mutationResult!
+}

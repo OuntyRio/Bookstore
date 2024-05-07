@@ -1,0 +1,5 @@
+type Mutation {
+  authors: AuthorsMutationNS
+  books: BooksMutationNS 
+  genres: GenresMutationNS
+}

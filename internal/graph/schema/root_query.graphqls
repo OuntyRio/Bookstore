@@ -1,0 +1,5 @@
+type Query {
+  authors: AuthorsQueryNS
+  books: BooksQueryNS
+  genres: GenresQueryNS
+}

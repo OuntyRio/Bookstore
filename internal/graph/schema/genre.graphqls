@@ -1,0 +1,6 @@
+type Genre {
+  id: Int
+  name: String
+  createdAt: DateTimeUTC
+  updatedAt: DateTimeUTC
+}

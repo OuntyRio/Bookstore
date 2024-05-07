@@ -1,0 +1,15 @@
+input BooksQueryNS_queryFilterInput {
+  pagination: QueryPaginationInput
+  sort: QuerySortingInput
+}
+
+type BooksQueryNS_queryResult {
+  books: [Book]!
+  count: Int
+}
+
+type BooksQueryNS {
+  get(id: Int!): Book!
+
+  query(filter: BooksQueryNS_queryFilterInput): BooksQueryNS_queryResult!
+}

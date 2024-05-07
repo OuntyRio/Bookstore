@@ -1,0 +1,8 @@
+type Book {
+  id: Int
+  title: String
+  authors: [Author]
+  genre: Genre
+  createdAt: DateTimeUTC
+  updatedAt: DateTimeUTC
+}

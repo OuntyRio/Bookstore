@@ -1,0 +1,9 @@
+api:
+  env: development
+
+server:
+  host: localhost
+  port: 8080
+
+database: 
+  url: postgres://postgres:postgres@postgres:5432?sslmode=disable

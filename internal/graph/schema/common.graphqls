@@ -1,0 +1,12 @@
+scalar JSONObject
+scalar DateTimeUTC
+
+input QueryPaginationInput {
+  limit: Int
+  page: Int
+}
+
+input QuerySortingInput {
+  field: String
+  order: String 
+}

@@ -1,0 +1,16 @@
+input BooksMutationNS_input {
+  id: Int
+  title: String
+  authors: [Int]
+  genre: Int
+}
+
+type BooksMutationNS_mutationResult {
+  changed: Book
+}
+
+type BooksMutationNS {
+  create(input: BooksMutationNS_input): BooksMutationNS_mutationResult!
+  update(input: BooksMutationNS_input): BooksMutationNS_mutationResult!
+  delete(input: BooksMutationNS_input): BooksMutationNS_mutationResult!
+}

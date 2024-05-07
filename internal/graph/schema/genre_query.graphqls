@@ -1,0 +1,15 @@
+input GenresQueryNS_queryFilterInput {
+  pagination: QueryPaginationInput
+  sort: QuerySortingInput
+}
+
+type GenresQueryNS_queryResult {
+  genres: [Genre]!
+  count: Int
+}
+
+type GenresQueryNS {
+  get(id: Int!): Genre
+
+  query(filter: GenresQueryNS_queryFilterInput): GenresQueryNS_queryResult!
+}

@@ -1,0 +1,14 @@
+input GenresMutationNS_input {
+  id: Int
+  name: String
+}
+
+type GenresMutationNS_mutationResult {
+  changed: Genre
+}
+
+type GenresMutationNS {
+  create(input: GenresMutationNS_input): GenresMutationNS_mutationResult!
+  update(input: GenresMutationNS_input): GenresMutationNS_mutationResult!
+  delete(input: GenresMutationNS_input): GenresMutationNS_mutationResult!
+}

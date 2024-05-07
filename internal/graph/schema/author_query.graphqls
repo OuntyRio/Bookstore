@@ -1,0 +1,15 @@
+input AuthorsQueryNS_queryFilterInput {
+  pagination: QueryPaginationInput
+  sort: QuerySortingInput
+}
+
+type AuthorsQueryNS_queryResult {
+  authors: [Author]!
+  count: Int
+}
+
+type AuthorsQueryNS {
+  get(id: Int!): Author
+
+  query(filter: AuthorsQueryNS_queryFilterInput): AuthorsQueryNS_queryResult!
+}
