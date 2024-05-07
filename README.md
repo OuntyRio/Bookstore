@@ -2,7 +2,7 @@
   Small educational project with books info storage.
 
 
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)         ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&l. goColor=white)         ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)         ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)        ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&l.goColor=white)         ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)         ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 
 ## Starting project
@@ -14,7 +14,8 @@ docker-compose up
 
 ## Db schema
 
-TODO 
+![image](https://github.com/OuntyRio/gql-bookstore/assets/89130450/59be8475-833b-4e04-a0c3-3d1a2991ebef)
+
 
 ## GraphQl namespaces
 
@@ -52,7 +53,8 @@ GraphQl playground is available at localhost:8080 after starting the project.
 <details>
 
 <summary>Books mutation example</summary>
-**Creating book** 
+
+**Creating book**
 *One genre and at least one author had been created already*
 
 ```
@@ -209,6 +211,7 @@ Result example
 <details>
 
 <summary>Books query example</summary>
+
 **Get book by id** 
 
 ```
